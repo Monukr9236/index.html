@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main {
+            background: black;
+            width: 100%;
+            height: 1400px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .titlemenu {
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            height: 8%;
+            background: rgb(134, 68, 131);
+        }
+
+        .menu li {
+            color: white;
+            list-style: none;
+            float: left;
+            margin: 20px;
+            font-size: 20px;
+            transition-duration: 0.8s;
+        }
+
+        .menu li:hover {
+            background: #04a1d5
+        }
+
+        .alert {
+            text-align: center;
+            margin-top: 10%;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            animation: blinkingBackground 0.5s infinite;
+            font-size: 20px;
+        }
+
+        @keyframes blinkingBackground {
+            0% {
+                background-color: #10c018;
+            }
+
+            25% {
+                background-color: #1056c0;
+            }
+
+            50% {
+                background-color: #ef0a1a;
+            }
+
+            75% {
+                background-color: #254878;
+            }
+
+            100% {
+                background-color: #04a1d5;
+            }
+        }
+
+        .alertlinks ol li {
+            margin-top: 25px;
+        }
+
+        .alertlinks ol li a {
+            color: #000;
+            font-weight: bold;
+            animation: blinkingText 1s infinite;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        @keyframes blinkingText {
+            0% {
+                color: #d5e7d6;
+            }
+
+            25% {
+                color: #bcec4a;
+            }
+
+            50% {
+                color: #ef0a1a;
+            }
+
+            75% {
+                color: #dfb83b;
+            }
+
+            100% {
+                color: #04a1d5;
+            }
+        }
+
+        .alertlinks p {
+            color: white;
+            float: right;
+        }
+
+        .bca h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: white;
+        }
+
+        .alertlinks {
+            border-bottom: 2px solid white;
+        }
+
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .title h1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .about {
+            margin-top: 100px;
+            width: 100%;
+            height: 325px;
+            text-align: center;
+            border-bottom: 2px solid red;
+        }
+
+        .image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .about p {
+            color: white;
+            font-size: 25px;
+        }
+
+        .about h3 {
+            color: white;
+            float: right;
+            padding: 18px;
+        }
+
+        .contactus {
+            width: 100%;
+            height: 100px;
+            margin-top: 100px;
+        }
+
+        #p1 {
+            color: white;
+            font-size: 18px;
+            display: inline;
+        }
+
+        #p2 {
+            display: inline;
+            padding-left: 25%;
+            color: white;
+            font-size: 18px;
+        }
+
+        #p3 {
+            display: inline;
+            color: white;
+            font-size: 18px;
+            padding-left: 25%;
+        }
+
+        .copyright {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+        }
+
+        .icon {
+            margin-top: 0px;
+        }
+
+        .icon1 {
+            float: left;
+            display: inline;
+            margin-left: 20px;
+            transition-duration: 0.8s;
+        }
+
+        .icon1:hover {
+            margin-top: 20px;
+        }
+
+        .icon2:hover {
+            margin-top: 20px;
+        }
+
+        .icon3:hover {
+            margin-top: 20px;
+        }
+
+        .icon3 {
+            float: right;
+            margin-right: 20px;
+            transition-duration: 0.8s;
+        }
+
+        .icon2 {
+            float: left;
+            display: inline;
+            margin-left: 360px;
+            transition-duration: 0.8s;
+        }
+
+        #i1 {
+            margin-left: 65px;
+            color: white;
+        }
+
+        #i2 {
+            margin-left: 40px;
+            color: white;
+        }
+
+        #i3 {
+            margin-left: 45px;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="titlemenu">
+            <div class="title">
+                <h1><a href="#">
+                        Assignment Junction</a>
+                </h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">
+                            Home</a>
+                    </li>
+                    <li><a href="#">
+                            BCA</a>
+                    </li>
+                    <li><a href="#">
+                            MCA</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bca">
+            <h1>
+                Fully Customized Website For BCA/MCA Student
+            </h1>
+        </div>
+        <div class="alert">
+            <h3>
+                Latest Alerts From IGNOU
+            </h3>
+        </div>
+        <div class="alertlinks">
+            <ol>
+                <li><a target="_blank"
+                        href="https://www.ignouteamalpha.co.in/notification/Assignment%20Submission%20Last%20Date%20Extension%20Notice.jpeg">
+                        Official Notice IGNOU Assignment Submission Last Date Extended up to 30th June 2021</a> </li>
+                <li><a target="_blank" href="https://exam.ignou.ac.in/">
+                        Online Submission of Exam Form June 2021 Term End Examination</a>
+                </li>
+                <li><a target="_blank" href="https://onlinerr.ignou.ac.in/">
+                        Re-Registration July 2021 Session</a>
+                </li>
+                <li><a target="_blank" href="https://gradecard.ignou.ac.in/gradecardM/Result.asp">
+                        Grade Card for BCA/MCA</a>
+                </li>
+                <li><a target="_blank" href="https://admission.ignou.ac.in/changeadmdata/statusassignment.ASP">
+                        Assignment/Project/Practical Submission Status/Checking</a>
+                </li>
+                <li><a target="_blank" href="https://termendresult.ignou.ac.in/TermEndDec20/TermEndDec20.asp">
+                        Term End December 2020 Exam Result</a>
+                </li>
+                <li><a target="_blank" href="https://gradecard.ignou.ac.in/mpddstatus/Jan21/StudentMaterialStatus.aspx">
+                        Study Material Status January 2021</a>
+                </li>
+            </ol>
+            <p>Last Update 20-06-2021</p>
+        </div>
+        <div class="about">
+            <img class="image"
+                src="https://1.bp.blogspot.com/-s66HZJsHyKs/YAlsB0LcAqI/AAAAAAAADJY/pmyJfn2g7CsSMF2O61U1hW25ORMATU9AwCLcBGAsYHQ/s320/FB_IMG_16091639798051365.jpg">
+            <p>Hello guys, I am happy to tell that I have created a new platform for you, which will be very helpful for
+                you</p>
+            <h3>-- Monu Kumar(BCA 4rth Semester Student)</h3>
+        </div>
+
+        <div class="contactus">
+            <div class="icon1">
+                <a href="#"> <i class="fas fa-mobile fa-4x" id="i1"></i><br>
+                    <b> Contact Us
+                        +918851426889
+                    </b>
+                </a>
+            </div>
+            <div class="icon2">
+                <a href="#"><i class="fab fa-telegram fa-4x" id="i2"></i><br>
+                    <b> Join Telegram Channel
+                    </b></a>
+            </div>
+            <div class="icon3">
+                <a href="#"><i class="fas fa-share-alt-square fa-4x" id="i3"></i><br>
+                    <b> Send Your Assignment
+                    </b></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>All Content Copyrighted By -- MONU KUMAR</p>
+        </div>
+</body>
+
+</html>
